@@ -22,7 +22,7 @@ namespace TheLibrary.Model
                 Books.Add(new Book(
                     Generator.GetRandomBookTitle(),
                     Generator.GetRandomName(),
-                    BarcodeGenerator.GenerateRandomBarcode(12)
+                    Generator.GenerateRandomBarcode(12)
                 ));
                 Thread.Sleep(1); //random numbers are generated using time. Awaiting a single milisecond ensures that the same book isn't genrated twice in a row.
             }
