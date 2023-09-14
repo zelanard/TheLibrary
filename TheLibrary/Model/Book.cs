@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TheLibrary.Model
+﻿namespace TheLibrary.Model
 {
     /// <summary>
     /// <c>Book</c> Models a book.
